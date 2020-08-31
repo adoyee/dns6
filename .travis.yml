@@ -1,0 +1,8 @@
+language: go
+go:
+  - 1.14
+  - 1.15
+
+script:
+  - go build github.com/adoyee/dns6
+  - go build github.com/adoyee/dns6/cmd/dns6
